@@ -3,7 +3,8 @@
     public class SortNamesModel
     {
         /*
-         
+         A method to sort the names by taking unsorted names from the text file 
+              and gives sorted names as output
          */
         public SortedDictionary<string, string> SortNames(List<string> unsortedNames, string fileLocation)
         {
@@ -15,6 +16,8 @@
                 sortedNames.Add(GenerateKey(name.Trim()), name);
             }
 
+            // Write the sorted names by creating a new file.
+
             var newFile = File.Create(fileLocation);
 
             newFile.Close();
@@ -25,6 +28,10 @@
 
         }
 
+        /*
+          A method that takes input as a value  to generate key 
+        that helps to store in SortedDictionary
+        */
         public static string GenerateKey(string value)
         {
             string[] names = value.Split(' ');

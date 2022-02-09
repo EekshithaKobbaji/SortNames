@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hNcPdHvGOwpxnQWWs1ExwzskH+9hax05CdYs5BlMjhdObU2DiRemS4KQq1VJ3jtTrKqhCY9LRvarbbF7Jg1jbQ==",
+  "dgSpecHash": "PFJcNwGbAJ2bJ93M7Six3BQFsxfYddIgHtb1i+t03cKp3sEKQzCnv2CsFthh1UfCPtFjKs3GA+Ht1nc4OLc0JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bharath\\source\\repos\\SortNames\\SortNames.Test\\SortNames.Test.csproj",
+  "projectFilePath": "C:\\Users\\Bharath\\source\\repos\\SortNames\\Git\\SortNames\\SortNames.Test\\SortNames.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bharath\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Bharath\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

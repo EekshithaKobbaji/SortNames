@@ -9,3 +9,15 @@ C:\Users\Bharath\source\repos\SortNames\Model\obj\Debug\net6.0\Model.csproj.Core
 C:\Users\Bharath\source\repos\SortNames\Model\obj\Debug\net6.0\Model.dll
 C:\Users\Bharath\source\repos\SortNames\Model\obj\Debug\net6.0\ref\Model.dll
 C:\Users\Bharath\source\repos\SortNames\Model\obj\Debug\net6.0\Model.pdb
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\bin\Debug\net6.0\Model.deps.json
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\bin\Debug\net6.0\Model.dll
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\bin\Debug\net6.0\ref\Model.dll
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\bin\Debug\net6.0\Model.pdb
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\obj\Debug\net6.0\Model.csproj.AssemblyReference.cache
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\obj\Debug\net6.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\obj\Debug\net6.0\Model.AssemblyInfoInputs.cache
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\obj\Debug\net6.0\Model.AssemblyInfo.cs
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\obj\Debug\net6.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\obj\Debug\net6.0\Model.dll
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\obj\Debug\net6.0\ref\Model.dll
+C:\Users\Bharath\source\repos\SortNames\Git\SortNames\Model\obj\Debug\net6.0\Model.pdb

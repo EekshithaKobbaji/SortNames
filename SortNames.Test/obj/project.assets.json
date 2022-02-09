@@ -6226,11 +6226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bharath\\source\\repos\\SortNames\\SortNames.Test\\SortNames.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Bharath\\source\\repos\\SortNames\\Git\\SortNames\\SortNames.Test\\SortNames.Test.csproj",
       "projectName": "SortNames.Test",
-      "projectPath": "C:\\Users\\Bharath\\source\\repos\\SortNames\\SortNames.Test\\SortNames.Test.csproj",
+      "projectPath": "C:\\Users\\Bharath\\source\\repos\\SortNames\\Git\\SortNames\\SortNames.Test\\SortNames.Test.csproj",
       "packagesPath": "C:\\Users\\Bharath\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bharath\\source\\repos\\SortNames\\SortNames.Test\\obj\\",
+      "outputPath": "C:\\Users\\Bharath\\source\\repos\\SortNames\\Git\\SortNames\\SortNames.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6251,8 +6251,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bharath\\source\\repos\\SortNames\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\Bharath\\source\\repos\\SortNames\\Model\\Model.csproj"
+            "C:\\Users\\Bharath\\source\\repos\\SortNames\\Git\\SortNames\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Bharath\\source\\repos\\SortNames\\Git\\SortNames\\Model\\Model.csproj"
             }
           }
         }

@@ -6,11 +6,13 @@ using System.Linq;
 namespace SortNames.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class SortNamesUnitTest
     {
         [TestMethod]
         public void TestMethod1()
         {
+            //Given Input
+
             #region SetInputs
             string fileLocation = @"C:\Users\Bharath\source\repos\SortNames\SortNames\sorted-names-list.txt";
 
@@ -27,6 +29,8 @@ namespace SortNames.Test
             names.Add("Mikayla Lopez");
             names.Add("Frankie Conner Ritter");
             #endregion
+
+            // Expected Output
 
             #region Set ExpectedOutput
             List<string> expectedOutput = new List<string>();
@@ -45,6 +49,8 @@ namespace SortNames.Test
 
             SortNamesModel model = new SortNamesModel();
             SortedDictionary<string, string> sortedNames = model.SortNames(names, fileLocation);
+
+            // to check the expected output is true
 
             bool check = expectedOutput.SequenceEqual(sortedNames.Values.ToList());
 

@@ -8,8 +8,7 @@ using System.Linq;
 using System.Configuration;
 using Model;
 
-namespace SortNames // Note: actual namespace depends on the project name.
-{
+namespace SortNames {
     class Program
     {
         static void Main(string[] args)
@@ -17,9 +16,18 @@ namespace SortNames // Note: actual namespace depends on the project name.
            string unsortedFilepath = @"C:\Users\Bharath\source\repos\SortNames\SortNames\unsorted-names-list.txt";
            string sortedFilepath = @"C:\Users\Bharath\source\repos\SortNames\SortNames\sorted-names-list.txt";
 
+            //To read all the lines in the unsorted-names-list.txt
+
             List<string> unsortedList = new List<string>(File.ReadAllLines(unsortedFilepath));
 
+        
+
             SortedDictionary<string,string> sortedNames = new SortedDictionary<string, string>();
+
+            /*
+             created an object of SortNamesModel to
+              SortNames method to generate output 
+            */
 
             SortNamesModel model = new SortNamesModel();
             sortedNames = model.SortNames(unsortedList, sortedFilepath);
@@ -33,17 +41,3 @@ namespace SortNames // Note: actual namespace depends on the project name.
     }
 }
 
-/*unsortedList.Add("Janet Parsons");
-           unsortedList.Add("Vaughn Lewis");
-           unsortedList.Add("Adonis Julius Archer");
-           unsortedList.Add("Shelby Nathan Yoder");
-           unsortedList.Add("Marin Alvarez");
-           unsortedList.Add("London Lindsey");
-           unsortedList.Add("Beau Tristan Bently");
-           unsortedList.Add("Leo Gardner");
-           unsortedList.Add("hunter Uriah Mathew Clarke");M
-           unsortedList.Add("Mikayla Lopez");
-           unsortedList.Add("Frankie conner Ritter");*/
-
-/*unsortedList.Sort((n1, n2) => n1.Split(" ")[n1.Split(" ").Length - 1]
-                       .CompareTo(n2.Split(" ")[n2.Split(" ").Length - 1]));*/
